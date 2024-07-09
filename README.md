@@ -97,3 +97,12 @@ This query retrieves detailed payslip information for active employees, includin
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/9b911b4f-794a-43a4-aa6b-2553f96369b4" alt="payslipquery" width="500">
 
 Replace ? in the BETWEEN ? AND ? clause with specific date parameters when displaying the payslip. This query provides essential data for payroll processing and analysis within the MotorPH Payroll System.
+
+### Payroll Summary Query
+The following SQL query summarizes payroll details including gross income, deductions, contributions, withholding tax, and net pay for each employee at MotorPH:
+
+![payrollsummary](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/8d6d9182-dcd6-43ff-af32-86669a397014)
+
+This query calculates essential payroll details such as gross income, social security contributions, Philhealth contributions, Pag-ibig contributions, TIN, withholding tax, and net pay for each employee at MotorPH. It provides comprehensive information needed for payroll processing and reporting within the organization.
+
+![payrollsummarys](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/3b47c5bb-04da-496c-bbd8-f598f81e0513)
