@@ -79,7 +79,7 @@ Table defining roles and responsibilities assigned to employees at MotorPH.
 
 
 ### Tax
-Table for managing tax-related information for payroll processing at MotorPH.
+Table for managing tax-related information for payroll processing.
 ![Tax](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/17365e3b-3326-4da5-9f02-aacdb1dfb88a)
 
 
