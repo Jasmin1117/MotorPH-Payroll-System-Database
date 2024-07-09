@@ -21,7 +21,6 @@
     - [Payslip Query](#payslip-query)
     - [Monthly Payroll Summary Query](#monthly-payroll-summary-query)
 4. [Testing](#testing)
-5. [Images and Videos](#images-and-videos)
 
 ## Introduction
 The MotorPH Payroll System Database manages employee information, payroll, and related data efficiently. This provides an overview of database tables, queries, testing procedures, and includes images and videos.
