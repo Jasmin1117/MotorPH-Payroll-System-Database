@@ -176,6 +176,7 @@ WHERE
 GROUP BY
     t.employee_id, a.rice, a.clothing, a.phone, a.total_amount;
 
+
 This query retrieves detailed payslip information for active employees, including regular and overtime hours worked, salary calculations based on hourly rates, and benefits such as rice subsidy, clothing allowance, and phone allowance. The results are grouped by employee and include their department and position within the MotorPH organization.
 
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/9b911b4f-794a-43a4-aa6b-2553f96369b4" alt="payslipquery" width="500">
