@@ -106,3 +106,63 @@ The following SQL query summarizes payroll details including gross income, deduc
 This query calculates essential payroll details such as gross income, social security contributions, Philhealth contributions, Pag-ibig contributions, TIN, withholding tax, and net pay for each employee at MotorPH. It provides comprehensive information needed for payroll processing and reporting within the organization.
 
 ![payrollsummarys](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/3b47c5bb-04da-496c-bbd8-f598f81e0513)
+
+## Testing
+
+### Create Employee Record
+
+**Actions**  
+Write a query that will insert the following employee records into the database:
+- Billy Lloyd Calasang
+- Jonathan Brosas
+- Shella Mae Tejor
+
+**Actual Result**  
+The employee records are successfully stored in the database.
+
+---
+
+### Update Employee Information
+
+**Actions**  
+Write a query that will display the following employee records:
+- Carlos Ian Martinez
+- Beatriz Santos
+- John Rafael Castro
+- Shella Mae Tejor
+
+Update the fields related to salary information based on the gross salary provided below:
+- Carlos Ian Martinez - 23,000
+- Beatriz Santos - 25,000
+- John Rafael Castro - 23,000
+- Shella Mae Tejor - 25,000
+
+**Actual Result**  
+The correct employee data records are retrieved and updated accurately.
+
+---
+
+### Delete Employee Record
+
+**Actions**  
+Write a query that will delete the following employee records from the database:
+- 34 - Carol Ramos
+- 35 - Emelia Maceda
+- 36 - Delia Aguilar
+
+**Actual Result**  
+The employee records for Carol Ramos, Emelia Maceda, and Delia Aguilar were successfully deleted from the database.
+
+---
+
+## MMDC-DBTC02 - Verify Employee Data Constraints
+
+### Check Employee ID Uniqueness
+
+**Actions**  
+Attempt to add a new employee record:
+- Mac Arnold Almirol
+
+**Actual Result**  
+The database rejected the addition of the new employee record and displayed an error message indicating the violation of the unique constraint for Employee IDs.
+
