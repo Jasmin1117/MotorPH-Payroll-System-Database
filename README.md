@@ -142,7 +142,7 @@ Update the fields related to salary information based on the gross salary provid
 **Actual Result**  
 The correct employee data records are retrieved and updated accurately.
 
-![MySQLWorkbench_0lshnZFJ5R](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/d80a94ef-0ea3-4c61-b38d-dde09676bbe6)
+![updateddd](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/1a1d8349-ce7e-4940-9fc4-e1ca10f23804)
 
 ---
 
@@ -157,7 +157,7 @@ Write a query that will delete the following employee records from the database:
 **Actual Result**  
 The employee records for Carol Ramos, Emelia Maceda, and Delia Aguilar were successfully deleted from the database.
 
-![ff](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/2a5ca6eb-de39-4206-94cf-31098de597c9)
+![MySQLWorkbench_0lshnZFJ5R](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/7c0b7381-308b-4c4b-bb4b-f72966a9ffbd)
 
 ---
 
@@ -170,5 +170,20 @@ Attempt to add a new employee record:
 **Actual Result**  
 The database rejected the addition of the new employee record and displayed an error message indicating the violation of the unique constraint for Employee IDs.
 
-![result](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/cb45f4cd-a015-4f60-9fc7-82554bab3fe8)
+![result](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/adbacece-0b36-4d7b-95d2-117ff9481fb1)
+
+---
+
+### Check Null Values
+
+**Actions**  
+Attempt to add a new employee record with the following information:
+- Employee Name: Harold Ian Correa
+- Birthdate: December 16, 1996
+- Address: 8435 West Service RoadMarcelo Green Village South Superhighway, Paranaque City
+
+**Actual Result**  
+The database rejected the addition of the new employee record and displayed the error message below:
+
+![ff](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/33a4fd31-c416-4709-a360-5e283c9c06cb)
 
