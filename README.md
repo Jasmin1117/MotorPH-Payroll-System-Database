@@ -161,8 +161,6 @@ The employee records for Carol Ramos, Emelia Maceda, and Delia Aguilar were succ
 
 ---
 
-## MMDC-DBTC02 - Verify Employee Data Constraints
-
 ### Check Employee ID Uniqueness
 
 **Actions**  
