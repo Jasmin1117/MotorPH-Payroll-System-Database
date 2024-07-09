@@ -120,6 +120,8 @@ Write a query that will insert the following employee records into the database:
 **Actual Result**  
 The employee records are successfully stored in the database.
 
+![sss](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/960f140b-5655-46ab-bb56-cd4839427427)
+
 ---
 
 ### Update Employee Information
@@ -140,6 +142,8 @@ Update the fields related to salary information based on the gross salary provid
 **Actual Result**  
 The correct employee data records are retrieved and updated accurately.
 
+![MySQLWorkbench_0lshnZFJ5R](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/d80a94ef-0ea3-4c61-b38d-dde09676bbe6)
+
 ---
 
 ### Delete Employee Record
@@ -153,6 +157,8 @@ Write a query that will delete the following employee records from the database:
 **Actual Result**  
 The employee records for Carol Ramos, Emelia Maceda, and Delia Aguilar were successfully deleted from the database.
 
+![ff](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/2a5ca6eb-de39-4206-94cf-31098de597c9)
+
 ---
 
 ## MMDC-DBTC02 - Verify Employee Data Constraints
@@ -165,4 +171,6 @@ Attempt to add a new employee record:
 
 **Actual Result**  
 The database rejected the addition of the new employee record and displayed an error message indicating the violation of the unique constraint for Employee IDs.
+
+![result](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/cb45f4cd-a015-4f60-9fc7-82554bab3fe8)
 
