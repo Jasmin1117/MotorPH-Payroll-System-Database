@@ -34,6 +34,10 @@
 ## Introduction
 The MotorPH Payroll System Database manages employee information, payroll, and related data efficiently. This provides an overview of database tables, queries, testing procedures, and includes images and videos.
 
+### Database Script
+
+You can download the database script [here](https://drive.google.com/file/d/10YCYOxMhlvqPf699g-ONtNyx8cul_5QK/view?usp=sharing).
+
 ## Database Tables
 
 ### Allowance
@@ -150,6 +154,7 @@ Table storing user credentials and access information at MotorPH.
 The following SQL query calculates payslip details including regular hours worked, overtime hours, and benefits for active employees within a specified date range:
 
 ![Image_20240710_005231_296](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/419a6c80-f78d-4ca1-a510-ec511e900e9a)
+You can download the database script [here](https://drive.google.com/file/d/1_a4z3QLvy0THBQSV5yqPnps4HyoE1fA4/view?usp=sharing).
 
 This query retrieves detailed payslip information for active employees, including regular and overtime hours worked, salary calculations based on hourly rates, and benefits such as rice subsidy, clothing allowance, and phone allowance. The results are grouped by employee and include their department and position within the MotorPH organization.
 
@@ -161,6 +166,7 @@ Replace ? in the BETWEEN ? AND ? clause with specific date parameters when displ
 The following SQL query summarizes payroll details including gross income, deductions, contributions, withholding tax, and net pay for each employee at MotorPH:
 
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/8d6d9182-dcd6-43ff-af32-86669a397014" alt="payrollsummary" width="700">
+You can download the database script [here](https://drive.google.com/file/d/14JL09PuCEydXFYFIDr0xbZgkXHg27Pnv/view?usp=sharing).
 
 This query calculates essential payroll details such as gross income, social security contributions, Philhealth contributions, Pag-ibig contributions, TIN, withholding tax, and net pay for each employee at MotorPH. It provides comprehensive information needed for payroll processing and reporting within the organization.
 
