@@ -20,7 +20,14 @@
 3. [Queries](#queries)
     - [Payslip Query](#payslip-query)
     - [Monthly Payroll Summary Query](#monthly-payroll-summary-query)
-4. [Testing](#testing)
+4. [Views](#views)
+    - [Department Monthly Payroll Report](#department-monthly-payroll-report)
+    - [Employee Allowance Cost](#employee-allowance-cost)
+    - [Employee Monthly Hours Worked](#employee-monthly-hours-worked)
+    - [Employee Timesheets](#employee-timesheets)
+    - [Monthly Payroll Report](#monthly-payroll-report)
+    - [Timesheet Summary](#timesheet-summary)
+6. [Testing](#testing)
 
 ## Introduction
 The MotorPH Payroll System Database manages employee information, payroll, and related data efficiently. This provides an overview of database tables, queries, testing procedures, and includes images and videos.
@@ -31,57 +38,85 @@ The MotorPH Payroll System Database manages employee information, payroll, and r
 Table for managing allowances given to employees.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/77c5233b-d96c-420d-9f54-3aba1b2a6479" alt="Allowance" width="300">
 
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/1679c5ae-28b1-4325-8b70-c3fb2f48d33b" alt="Allowance" width="500">
+
 ### Deduction
 Table for managing deductions from employee salaries.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/3c7a8231-baf3-4010-b523-ece48dd4e853" alt="Deduction" width="300">
+
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/e5d0e224-54f8-46d3-a789-59cc6d6250c6" alt="Deduction" width="500">
 
 ### Department
 Table for storing department information within MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/bd15f55a-de34-4733-ace6-1d911f39d438" alt="Department" width="300">
 
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/7d79ec3c-ef85-44e9-9319-369adb963601" alt="Department" width="500">
+
 ### Employee
 Table containing details of each employee in MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/b791613a-96bf-483b-a561-30e4999138c3" alt="Employee" width="300">
+
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/f305ae5e-d41c-4567-a73b-52d0ffa1307f" alt="Employee" width="500">
 
 ### Leave Request
 Table for tracking leave requests submitted by employees at MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/c2706c21-3249-4b64-84f5-19d98db95117" alt="Leave Request" width="300">
 
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/90d5f7f7-d5c2-473e-96b3-031350006e75" alt="Leave Request" width="500">
+
 ### Leave Request Category
 Table categorizing different types of leave requests at MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/2d0647c9-2f87-4a94-bea1-c116e2a75a44" alt="Leave Request Category" width="300">
+
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/3fdc74aa-0846-457b-84c1-002e4b1450f2" alt="Leave Request Category" width="500">
 
 ### Payslip
 Table containing detailed pay information for each employee at MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/b17d6012-749f-4a5a-a521-d52e2e4c2072" alt="Payslip" width="300">
 
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/e9258920-94c1-457c-9a04-bd9f59861d74" alt="Payslip" width="500">
+
 ### Permission
 Table specifying permissions granted to users within MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/022fd002-15f8-4153-8833-7c1c52be7dd1" alt="Permission" width="300">
+
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/1f358b7c-485e-475b-83bd-e6ca54097474" alt="Permission" width="500">
 
 ### Position
 Table storing different job positions available at MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/34548403-e6a0-454f-a2aa-a21532d6aa7d" alt="Position" width="300">
 
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/ef1abe73-818e-4aaf-9457-c57419f81d5f" alt="Position" width="500">
+
 ### Role
 Table defining roles and responsibilities assigned to employees at MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/29cdae42-d414-4515-983a-18ee2f18387b" alt="Role" width="300">
+
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/da534007-fa55-4774-b00f-91ae8dda2ba7" alt="Role" width="500">
 
 ### Tax
 Table for managing tax-related information for payroll processing.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/17365e3b-3326-4da5-9f02-aacdb1dfb88a" alt="Tax" width="300">
 
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/4270c290-7d89-4827-95e9-07571376e80d" alt="Tax" width="500">
+
 ### Tax Category
 Table categorizing different tax types at MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/899b058f-97d0-465e-8d29-b89d7052438f" alt="Tax Category" width="300">
+
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/c3f921f7-6ca7-4607-a432-2dc74b176955" alt="Tax Category" width="500">
 
 ### Timesheet
 Table recording hours worked by employees at MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/53fc95d0-7a45-48d2-bb5a-4756aada631a" alt="Timesheet" width="300">
 
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/367943e5-caac-4a5e-9cf0-9aab8caacf82" alt="Timesheet" width="500">
+
 ### User
 Table storing user credentials and access information at MotorPH.
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/ddc2d22e-7e7c-472f-944d-a97adae9a06b" alt="User" width="300">
+
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/57790b82-c5b6-42cf-a7bc-1b05942ff1be" alt="User" width="500">
 
 
 ## Queries
