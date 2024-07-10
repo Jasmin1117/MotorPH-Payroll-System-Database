@@ -29,6 +29,8 @@
     - [Monthly Payroll Summary Query](#monthly-payroll-summary-query)
 6. [Testing](#testing)
 
+---
+
 ## Introduction
 The MotorPH Payroll System Database manages employee information, payroll, and related data efficiently. This provides an overview of database tables, queries, testing procedures, and includes images and videos.
 
@@ -118,6 +120,7 @@ Table storing user credentials and access information at MotorPH.
 
 <img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/57790b82-c5b6-42cf-a7bc-1b05942ff1be" alt="User" width="500">
 
+---
 
 ## Queries
 
@@ -140,6 +143,8 @@ The following SQL query summarizes payroll details including gross income, deduc
 This query calculates essential payroll details such as gross income, social security contributions, Philhealth contributions, Pag-ibig contributions, TIN, withholding tax, and net pay for each employee at MotorPH. It provides comprehensive information needed for payroll processing and reporting within the organization.
 
 ![payrollsummarys](https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/3b47c5bb-04da-496c-bbd8-f598f81e0513)
+
+---
 
 ## Testing
 
