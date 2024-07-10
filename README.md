@@ -122,6 +122,28 @@ Table storing user credentials and access information at MotorPH.
 
 ---
 
+## Views
+
+### Department Monthly Payroll Report
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/17fe480b-0e08-490f-bffc-19bdba7b14c3" alt="Department Monthly Payroll Report" width="500">
+
+### Employee Allowance Cost
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/3dc6bf4d-cbc6-430f-aa01-b92fc15ee8a9" alt="Employee Allowance Cost" width="500">
+
+### Employee Monthly Hours Worked
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/6b028e9a-ed29-446d-8e6f-f5dc33e243c6" alt="Employee Monthly Hours Worked" width="500">
+
+### Employee Timesheets
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/36e22b7e-1ca6-4268-bb12-181f30f2aeda" alt="Employee Timesheets" width="500">
+
+### Monthly Payroll Report
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/9896f2bf-2ebb-44fa-b45a-9d5873a37ecb" alt="Monthly Payroll Report" width="500">
+
+### Timesheet Summary
+<img src="https://github.com/Jasmin172002/MotorPH-Payroll-System-Database/assets/125138169/65e08987-db2d-456b-8e92-6912047d7e63" alt="Timesheet Summary" width="500">
+
+---
+
 ## Queries
 
 ### Payslip Query
